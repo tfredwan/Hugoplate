@@ -1,6 +1,5 @@
 {
   "file": "exampleSite/content/english/blog/post-1.md",
-  "name": "blog",
   "fileType": "md",
   "fmType": "yaml",
   "template": [
@@ -35,10 +34,10 @@
       "name": "date",
       "label": "Date",
       "type": "Date",
-      "value": "",
+      "value": "2026-04-06",
       "isIgnored": false,
       "defaultValue": "",
-      "alwaysUseCurrentDate": false
+      "alwaysUseCurrentDate": true
     },
     {
       "name": "image",

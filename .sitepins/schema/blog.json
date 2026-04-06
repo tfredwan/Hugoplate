@@ -67,7 +67,7 @@
       "defaultValue": "",
       "isDropdown": true,
       "referenceType": "folder",
-      "referencePath": "exampleSite/content/english/authors",
+      "referencePath": "layouts/authors",
       "referenceExclude": "-index.md"
     },
     {

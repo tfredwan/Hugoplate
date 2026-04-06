@@ -9,6 +9,7 @@
       "label": "Title",
       "type": "string",
       "value": "",
+      "isIgnored": false,
       "defaultValue": ""
     },
     {
@@ -16,6 +17,7 @@
       "label": "Meta Title",
       "type": "string",
       "value": "",
+      "isIgnored": false,
       "defaultValue": ""
     },
     {
@@ -23,6 +25,7 @@
       "label": "Description",
       "type": "string",
       "value": "",
+      "isIgnored": false,
       "defaultValue": ""
     },
     {
@@ -30,6 +33,7 @@
       "label": "Date",
       "type": "Date",
       "value": "",
+      "isIgnored": false,
       "defaultValue": "",
       "alwaysUseCurrentDate": false
     },
@@ -38,6 +42,7 @@
       "label": "Image",
       "type": "media",
       "value": "",
+      "isIgnored": false,
       "defaultValue": ""
     },
     {
@@ -45,6 +50,7 @@
       "label": "Categories",
       "type": "Array",
       "value": [],
+      "isIgnored": false,
       "defaultValue": ""
     },
     {
@@ -52,13 +58,18 @@
       "label": "Author",
       "type": "string",
       "value": "",
-      "defaultValue": ""
+      "isIgnored": false,
+      "defaultValue": "",
+      "isDropdown": true,
+      "referenceType": "folder",
+      "referenceExclude": "-index.md"
     },
     {
       "name": "tags",
       "label": "Tags",
       "type": "Array",
       "value": [],
+      "isIgnored": false,
       "defaultValue": ""
     },
     {
@@ -66,6 +77,7 @@
       "label": "Draft",
       "type": "boolean",
       "value": false,
+      "isIgnored": false,
       "defaultValue": ""
     }
   ]

@@ -66,7 +66,8 @@
       "isRequired": true,
       "defaultValue": "",
       "isDropdown": true,
-      "referenceType": "static",
+      "referenceType": "folder",
+      "referencePath": "exampleSite/content/english/authors",
       "referenceExclude": "-index.md",
       "referenceField": "title"
     },
